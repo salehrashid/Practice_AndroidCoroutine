@@ -14,14 +14,27 @@
         android:theme="@style/Theme.CoroutineDemo"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".unstructured_concurrency.SecondActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+        <activity
+            android:name=".AsyncAwaitDecomposition"
+            android:exported="true" />
+        <activity
+            android:name=".SwitchCoroutine"
+            android:exported="true" />
+        <activity
+            android:name=".ThreadName"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

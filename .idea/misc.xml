@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35052083333333334" />
+        <entry key="app/src/main/res/layout/activity_second.xml" value="0.35052083333333334" />
+        <entry key="app/src/main/res/layout/activity_switch_coroutine.xml" value="0.35052083333333334" />
+        <entry key="app/src/main/res/layout/activity_thread_name.xml" value="0.35052083333333334" />
       </map>
     </option>
   </component>
